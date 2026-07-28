@@ -1,7 +1,7 @@
 # 0-Lag Typhoon Genesis Detection via 850 hPa Helicity
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PENDING.svg)](https://doi.org/10.5281/zenodo.PENDING)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21650650.svg)](https://doi.org/10.5281/zenodo.21650650)
 
 **A geometric caliper that detects tropical cyclone organization at zero temporal lag — built and validated on a 6 GB RAM consumer NAS.**
 
@@ -74,7 +74,7 @@ python scripts/coupling_significance.py
   title={0-Lag Phase Locking: Detecting Tropical Cyclone Genesis via 850 hPa Helicity on Edge Hardware},
   author={DR},
   year={2026},
-  doi={10.5281/zenodo.PENDING},
+  doi={10.5281/zenodo.21650650},
   note={Independent Research}
 }
 ```
