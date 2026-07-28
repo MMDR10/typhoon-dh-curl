@@ -39,8 +39,10 @@ typhoon-dh-curl/
 │   ├── coupling_v2.py               # Spatial filtering + precipitation
 │   └── download_era5.py             # ERA5 CDS API pipeline
 ├── data/6typhoon_results/
-│   ├── *_dh_curl.csv                # Per-typhoon dH_curl time series
-│   └── 6typhoon_summary.json        # Aggregate mode + U-strength
+│   ├── *_dh_curl.csv                # Per-typhoon dH_curl time series (6 files)
+│   ├── 6typhoon_summary.json        # Aggregate mode + U-strength
+│   ├── *_helicity_summary.json      # Grid search intermediates (23 files)
+│   └── *_seismic_batch_summary.json # Earthquake coupling raw data (2 files)
 └── output/
     ├── coupling_analysis_v1.json     # Full-domain coupling results
     └── coupling_analysis_v2.json     # Spatially-filtered coupling results

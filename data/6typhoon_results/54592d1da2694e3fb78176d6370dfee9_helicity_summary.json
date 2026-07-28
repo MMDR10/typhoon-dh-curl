@@ -1,0 +1,55 @@
+{
+  "test_started": "2026-07-14",
+  "test_ended": "2026-07-14",
+  "total_days": 1,
+  "days": [
+    {
+      "date": "2026-07-14",
+      "conditions_tested": [
+        "A",
+        "D"
+      ],
+      "model": "Qwen2.5-1.5B",
+      "sample_size": 12,
+      "memory": {
+        "baseline_rss_mb": 26.9,
+        "drift_24h_mb": 40.1,
+        "condition_A": {
+          "peak_rss_mb": 923.0,
+          "recovery_delta_mb": 167.7,
+          "gc_count": 12
+        },
+        "condition_D": {
+          "peak_rss_mb": 833.4,
+          "recovery_delta_mb": 136.2,
+          "gc_count": 21
+        },
+        "flags": [
+          "ℹ️ Cond A: recovery 168MB",
+          "ℹ️ Cond D: recovery 136MB"
+        ]
+      },
+      "retrieval": {
+        "condition_D": {
+          "precision_at_5": 1.0,
+          "context_drift": 0.0,
+          "hallucination": 1.0,
+          "alignment_score_mean": 0.75
+        },
+        "flags": [
+          "⚠️ Hallucination rate 1.00 above warning (0.15)"
+        ]
+      },
+      "api_dependency": {
+        "local_completion_rate": 0.92,
+        "cloud_tokens": 12400,
+        "ttft_mean_ms": 1446.0,
+        "ttft_p95_ms": 2907,
+        "timeout_rate": 0.0,
+        "flags": []
+      },
+      "anomalies": [],
+      "daily_verdict": "warning"
+    }
+  ]
+}
